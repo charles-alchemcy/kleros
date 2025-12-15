@@ -8,7 +8,6 @@ import "@kleros/kleros-interaction/contracts/standard/arbitration/TwoPartyArbitr
 contract Migrations {
     address public owner;
     uint public last_completed_migration;
-
     modifier isOwner() {
         if (msg.sender == owner) _;
     }
