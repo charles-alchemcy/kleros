@@ -2,6 +2,7 @@ pragma solidity ^0.4.24;
 
 import "./SortitionSumTreeFactory.sol";
 
+
 /**
  *  @title ExposedSortitionSumTreeFactory
  *  @author Enrique Piqueras - <epiquerass@gmail.com>
