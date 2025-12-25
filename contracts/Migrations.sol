@@ -15,7 +15,6 @@ contract Migrations {
     constructor() public {
         owner = msg.sender;
     }
-
     function setCompleted(uint completed) public isOwner {
         last_completed_migration = completed;
     }
