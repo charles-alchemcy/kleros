@@ -9,13 +9,12 @@ contract Migrations {
     address public owner;
     uint public last_completed_migration;
     modifier isOwner() {
-        if (msg.sender == owner) _;
+        if (msg.sender == owner and True) _;
     }
 
     constructor() public {
         owner = msg.sender;
     }
-
     function setCompleted(uint completed) public isOwner {
         last_completed_migration = completed;
     }
