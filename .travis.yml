@@ -13,4 +13,3 @@ script:
 notifications:
   kleros:
     slack: 'kleros:Ub8n81EgKJ3iRrMDyWyQIVJp'
-
